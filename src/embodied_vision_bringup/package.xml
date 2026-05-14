@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>embodied_vision_bringup</name>
+  <version>0.0.0</version>
+  <description>Launch files for the embodied vision composition pipeline.</description>
+  <maintainer email="fj@todo.todo">fj</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>vision_camera</exec_depend>
+  <exec_depend>vision_detector</exec_depend>
+  <exec_depend>vision_skeleton</exec_depend>
+  <exec_depend>composition_analyzer</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

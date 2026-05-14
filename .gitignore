@@ -1,0 +1,41 @@
+# ROS 2 / colcon generated files
+build/
+install/
+log/
+**/build/
+**/install/
+**/log/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# CMake and compiler artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.o
+*.so
+*.a
+
+# Editor / OS files
+.vscode/
+.idea/
+.agents/
+.codex
+.codex/
+*.swp
+*~
+.DS_Store
+
+# Runtime outputs
+*.bag
+*.db3
+*.mcap
+*.log
+
+# Optional source weights; runtime uses exported ONNX / task models
+*.pt
