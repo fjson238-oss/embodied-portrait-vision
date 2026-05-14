@@ -196,39 +196,6 @@ src/composition_analyzer/src/composition_rules.cpp
 
 ROS2 节点层只负责消息订阅、消息转换和结果发布。
 
-## 发布到 Git 的建议步骤
-
-当前目录如果还不是 git 仓库，可以执行：
-
-```bash
-cd /home/fj/embodied_vision_ws
-git init
-git add README.md docs .gitignore src
-git status
-git commit -m "Initial MVP: ROS2 portrait composition assistant"
-```
-
-创建远端仓库后：
-
-```bash
-git remote add origin <your-repo-url>
-git branch -M main
-git push -u origin main
-```
-
-提交前建议确认没有把生成目录加入 git：
-
-```bash
-git status --short
-```
-
-不应出现：
-
-```text
-build/
-install/
-log/
-```
 
 ## 后续方向
 
